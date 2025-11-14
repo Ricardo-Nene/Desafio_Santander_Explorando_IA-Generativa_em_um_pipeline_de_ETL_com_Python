@@ -1,4 +1,4 @@
-# Desafio_Santander_Explorando_IA_Generativa_em_um_pipeline_de_ETL_com_Python
+# Explorando_IA_Generativa_em_um_pipeline_de_ETL_com_Python
 
 Desafio de projeto para o Bootcamp Santander 2025 - Ciência de Dados com Python 2° Semestre/2025
 
@@ -26,8 +26,6 @@ Atualmente, muitos dos clientes do banco ainda não contrataram seguros. Alguns 
  
 ## Deixa eu te explicar rapidinho como executar o projeto ▶️:
 
-## ▶️ Como executar
-
 Na raiz do projeto, rode:
 
 python etl_banco_do_ricardo.py
@@ -39,12 +37,15 @@ O script vai:
 - Gerar um Excel .xlsx
 - Gerar uma apresentação .pptx
 
-📦 requirements
+📦 Requisitos:
 
 1. pandas
 2. xlsxwriter
 3. python-pptx
 
+💡Dica: 
+- Use o arquivo requeriments.txt que esta na rsiz do projeto.
+- No VS code execute: pip install -r requirements.txt
 
 ## 🧱 Arquitetura do Pipeline ETL
 
