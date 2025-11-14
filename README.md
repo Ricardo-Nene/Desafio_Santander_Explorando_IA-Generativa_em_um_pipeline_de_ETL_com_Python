@@ -23,7 +23,28 @@ Atualmente, muitos dos clientes do banco ainda não contrataram seguros. Alguns 
   - 🗂 Banco SQLite  
   - 📊 Excel (.xlsx)  
   - 🖼 Apresentação PPTX
-    
+ 
+## Deixa eu te explicar rapidinho como executar o projeto ▶️:
+
+## ▶️ Como executar
+
+Na raiz do projeto, rode:
+
+python etl_banco_do_ricardo.py
+
+O script vai:
+- Ler data/raw/clientes_banco_ricardo.csv
+- Gerar arquivos em data/processed/
+- Criar (ou sobrescrever) o banco SQLite data/banco_do_ricardo_seguros.db
+- Gerar um Excel .xlsx
+- Gerar uma apresentação .pptx
+
+📦 requirements
+
+1. pandas
+2. xlsxwriter
+3. python-pptx
+
 
 ## 🧱 Arquitetura do Pipeline ETL
 
