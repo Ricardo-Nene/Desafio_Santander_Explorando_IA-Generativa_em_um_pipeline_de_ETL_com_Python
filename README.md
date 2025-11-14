@@ -44,7 +44,7 @@ O script vai:
 3. python-pptx
 
 💡Dica: 
-- Use o arquivo requeriments.txt que esta na rsiz do projeto.
+- Use o arquivo requeriments.txt que esta na raiz do projeto.
 - No VS code execute: pip install -r requirements.txt
 
 ## 🧱 Arquitetura do Pipeline ETL
